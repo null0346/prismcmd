@@ -1,5 +1,7 @@
 class Main {
 	static function main() {
-		trace("Welcome to prismCMD!");
+		Sys.println("Welcome to prismCMD!");
+		Sys.println(Date.now());
+		var com = Sys.stdin().readLine();
 	}
 }
