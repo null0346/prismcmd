@@ -1,3 +1,6 @@
+import Sys.systemName;
+import prismfetch.PrismFetch;
+
 class Main {
 	static function main() {
 		Sys.println("Welcome to prismCMD!");

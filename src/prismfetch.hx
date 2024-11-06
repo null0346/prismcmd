@@ -1,9 +1,7 @@
-package commands;
-
 import Sys.systemName;
 
-class Main {
-	static function main() {
+class PrismFetch {
+	static function prismfetch() {
 		Sys.println("OS: " + systemName());
 	}
 }
